@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#a385e5</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#fbc3b1</color>
+    
+    <color name="blueStart">#a385e5</color>
+    <color name="blueEnd">#a2b8f6</color>
+    <color name="pinkStart">#fbc3b1</color>
+    <color name="pinkEnd">#fdbab6</color>
+
+    <color name="cardBg">#ffffff</color>
+    <color name="buttonTextColor">#ffffff</color>
+
+    <color name="blueButtonBg">#97a7f7</color>
+    <color name="pinkButtonBg">#fea1a6</color>
 </resources>
