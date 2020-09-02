@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "262785369979",
+    "firebase_url": "https://whatdo-e1a1f.firebaseio.com",
+    "project_id": "whatdo-e1a1f",
+    "storage_bucket": "whatdo-e1a1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262785369979:android:016fbb5f14b3754364dfde",
+        "android_client_info": {
+          "package_name": "zinc0214.whatdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262785369979-qpg74rcfh0l4ktiftot5pnifh90a4hgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCukRaLbO_seaMhGXUmlJUOLAXK4pB683I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262785369979-qpg74rcfh0l4ktiftot5pnifh90a4hgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

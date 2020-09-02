@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -62,5 +63,11 @@ dependencies {
 
     // kotlin - ktx
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0-alpha07'
+
+    // firebase - analytics
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+
+    // fitebase - database
+    implementation 'com.google.firebase:firebase-database-ktx:19.4.0'
 
 }
