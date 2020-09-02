@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">WhatShouldWeDo</string>
     <string name="start">START</string>
-    <string name="testContent">아침 밥를먹고\n디저트로 술빵과\n우유를 섭취해!\n아침 밥를먹고\n디저트로 술빵과\n우유를 섭취해!\n아침 밥를먹고\n디저트로 술빵과\n우유를 섭취해!\n아침 밥를먹고\n디저트로 술빵과\n우유를 섭취해!\n</string>
+    <string name="refresh">Refresh</string>
 </resources>

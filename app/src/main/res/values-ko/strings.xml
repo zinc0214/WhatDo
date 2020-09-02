@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">우리 뭐할까</string>
     <string name="start">스타또</string>
+    <string name="refresh">다시돌리기</string>
 </resources>

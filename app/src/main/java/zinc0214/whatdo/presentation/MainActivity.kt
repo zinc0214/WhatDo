@@ -70,10 +70,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     public fun startClickListener() {
+        getCardInfo()
+        binding.homeGroup.visibility = View.GONE
+        binding.contentGroup.visibility = View.VISIBLE
+    }
+
+    public fun getCardInfo() {
         val num = Random.nextInt(infoList.size - 1)
         binding.cardInfo = infoList[num]
         binding.notifyChange()
-        binding.homeGroup.visibility = View.GONE
-        binding.contentGroup.visibility = View.VISIBLE
     }
 }

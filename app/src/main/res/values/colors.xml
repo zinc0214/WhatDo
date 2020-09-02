@@ -18,4 +18,7 @@
     <color name="blueTitleTextColor">#a17dfa</color>
     <color name="pinkTitleTextColor">#ff8787</color>
     <color name="contentTextColor">#888888</color>
+
+    <color name="blueRefreshBg">#97a7f7</color>
+    <color name="pinkRefreshBg">#fea0a6</color>
 </resources>
