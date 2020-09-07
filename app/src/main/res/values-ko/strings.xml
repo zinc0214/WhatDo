@@ -1,4 +1,8 @@
 <resources>
+    <string name="admob_app_id">ca-app-pub-7493874486999773~8248411171</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7493874486999773/4117594472</string>
+    <string name="banner_ad_unit_id_for_test">ca-app-pub-3940256099942544/6300978111</string>
+
     <string name="app_name">우리 뭐할까</string>
     <string name="start">스타또</string>
     <string name="refresh">다시돌리기</string>
