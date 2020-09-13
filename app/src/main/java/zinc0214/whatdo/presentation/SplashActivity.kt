@@ -71,7 +71,6 @@ class SplashActivity : AppCompatActivity() {
                         startMain()
                     }
                 }
-                Log.e("ayhan", "infoListSize : ${infoList.size}")
             }
         })
     }
@@ -79,7 +78,9 @@ class SplashActivity : AppCompatActivity() {
     private fun getLocale(): String {
 
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            if (applicationContext.resources.configuration.locales.toLanguageTags() == "ko-KR") "ko" else "en"
+            val localList =
+                applicationContext.resources.configuration.locales.toLanguageTags().split(",")
+            if (localList[0] == "ko-KR") "ko" else "en"
         } else {
             if (Locale.getDefault().displayCountry == "대한민국") "ko" else "en"
         }
