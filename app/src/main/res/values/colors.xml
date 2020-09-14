@@ -21,4 +21,6 @@
 
     <color name="blueRefreshBg">#97a7f7</color>
     <color name="pinkRefreshBg">#fea0a6</color>
+
+    <color name="_ffffff">#ffffff</color>
 </resources>
