@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@{type == ViewType.BLUE ? @drawable/blue2 : @drawable/pink2}"
-            app:layout_constraintBottom_toTopOf="@id/adView"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="ContentDescription" />
 
@@ -59,12 +59,12 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="70dp"
             android:layout_marginEnd="30dp"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="90dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
-            app:layout_constraintBottom_toTopOf="@id/adView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
